@@ -2,8 +2,6 @@
 pyxform v0.9
 ============
 
-
-I edited https://github.com/SEL-Columbia/pyxform/tree/master/pyxform for tattara
 pyxform is a Python library that makes writing XForms for ODK Collect and enketo
 easy by converting XLS(X) spreadsheets into XForms. A new user of pyxform should
 look at the documentation `here <https://formhub.org/syntax/>`_ or
@@ -30,11 +28,15 @@ Running pyxform as a Python script:
 
     pip install xlrd
 
-    python setup.py install
-
 2. Run this command:
 
     python pyxform/xls2xform.py path_to_XLSForm output_path
+
+Installation
+============
+Installing pyxform from github is easy with pip::
+
+	pip install -e git+https://github.com/INSERT GH USER NAME HERE/pyxform.git@master#egg=pyxform
 
 Testing
 =======
